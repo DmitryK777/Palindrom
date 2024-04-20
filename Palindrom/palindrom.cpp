@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void main()
@@ -8,12 +8,12 @@ void main()
 	int user_input;
 	int revers_user_input = 0;
 
-	cout << "Ââåäèòå ÷èñëî: "; cin >> user_input;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: "; cin >> user_input;
 	int variable = user_input;
 
 	if (variable == 0)
 	{
-		cout << "İòî æå ïğîñòî íóëü, äàæå åñëè îí è ïàëèíäğîì." << endl;
+		cout << "Ğ­Ñ‚Ğ¾ Ğ¶Ğµ Ğ¿Ñ€Ğ¾ÑÑ‚Ğ¾ Ğ½ÑƒĞ»ÑŒ, Ğ´Ğ°Ğ¶Ğµ ĞµÑĞ»Ğ¸ Ğ¾Ğ½ Ğ¸ Ğ¿Ğ°Ğ»Ğ¸Ğ½Ğ´Ñ€Ğ¾Ğ¼." << endl;
 	}
 	else {
 		while (variable != 0)
@@ -24,11 +24,11 @@ void main()
 
 		if (user_input == revers_user_input)
 		{
-			cout << "İòî ïàëèíäğîì" << endl;
+			cout << "Ğ­Ñ‚Ğ¾ Ğ¿Ğ°Ğ»Ğ¸Ğ½Ğ´Ñ€Ğ¾Ğ¼" << endl;
 		}
 		else
 		{
-			cout << "İòî íå ïàëèíäğîì" << endl;
+			cout << "Ğ­Ñ‚Ğ¾ Ğ½Ğµ Ğ¿Ğ°Ğ»Ğ¸Ğ½Ğ´Ñ€Ğ¾Ğ¼" << endl;
 		}
 	}
 
